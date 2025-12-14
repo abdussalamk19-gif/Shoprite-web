@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family:"roboto", sans-serif;
+}
+.upper-header {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 10px 0px 10px;
+}
+
+.upper-header-span {
+    color: red;
+}
+
+.lower-header {
+    background-color: red;
+}
+
+.lower-header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.lower-header-inner .logo {
+    width: 150px;
+}
+
+.lower-header-inner .menu {
+    width: 20px;
+}
+.showcase-container img {
+    width: 100%;
+}
+
